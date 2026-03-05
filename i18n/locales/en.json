@@ -1,3 +1,201 @@
 {
-    "hello": "Welcome to my template"
+	"header": {
+		"name": "GUILMIN Leny"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"projects": "Projects",
+		"skills": "Skills",
+		"experience": "Experience",
+		"contact": "Contact",
+		"menu": "Menu",
+		"switchLanguage": "Switch language"
+	},
+	"footer": {
+		"description": "Passionate developer.",
+		"quickLinks": "Quick links",
+		"contact": "Contact",
+		"location": "France",
+		"rights": "All rights reserved",
+		"builtWith": "Built with"
+	},
+	"home": {
+		"hero": {
+			"greeting": "Hello, I'm",
+			"role": "Web Developer",
+			"description": "BUT3 Computer Science student, passionate about web development and new technologies",
+			"cta": {
+				"projects": "View my projects",
+				"contact": "Contact me",
+				"about": "Learn more"
+			}
+		},
+		"aboutPreview": {
+			"subtitle": "In brief",
+			"description": "Web development student, I am passionate about creating modern and innovative web applications. My journey has allowed me to acquire solid skills in front-end and back-end development.",
+			"cta": "Learn more"
+		},
+		"skillsPreview": {
+			"subtitle": "Technologies I master",
+			"cta": "View all my skills",
+			"skills": {
+				"vuejs": {
+					"name": "Vue.js & Nuxt",
+					"description": "Modern JavaScript framework for performant web applications"
+				},
+				"typescript": {
+					"name": "TypeScript",
+					"description": "Typed development for more robust and maintainable code"
+				},
+				"nodejs": {
+					"name": "Node.js",
+					"description": "JavaScript backend for fast and scalable APIs"
+				},
+				"database": {
+					"name": "Database",
+					"description": "PostgreSQL, MySQL, Prisma ORM"
+				}
+			}
+		},
+		"projectsPreview": {
+			"subtitle": "My latest achievements",
+			"description": "Discover my projects and achievements",
+			"cta": "View my projects"
+		},
+		"videoPreview": {
+			"title": "180 seconds of the BUT Computer Science",
+			"subtitle": "A glimpse of the program that shaped me",
+			"badge": "180 seconds of the BUT",
+			"ariaLabel": "Watch the 180 seconds of the BUT Computer Science video on YouTube"
+		}
+	},
+	"about": {
+		"subtitle": "Who am I?",
+		"journey": {
+			"title": "My journey",
+			"paragraph1": "BUT3 Computer Science student at IUT of Calais, I am passionate about web development and new technologies.",
+			"paragraph2": "My journey has allowed me to acquire solid skills in front-end and back-end development, with a specialization in Vue.js, Nuxt, TypeScript and Node.js.",
+			"paragraph3": "I am constantly looking for new challenges and opportunities to deepen my knowledge in the field of web development."
+		},
+		"passion": {
+			"title": "What I'm passionate about",
+			"items": {
+				"games": "Big gamer specialized in automating repetitive tasks",
+				"series": "I love reading webtoons/manga and watching anime series",
+				"music": "I love immersing myself in music",
+				"learning": "Continuous learning of new technologies"
+			}
+		}
+	},
+	"skills": {
+		"subtitle": "Technologies & Skills",
+		"all": "All",
+		"categories": {
+			"frontend": "Frontend",
+			"backend": "Backend",
+			"database": "Database",
+			"devops": "DevOps & Tools",
+			"testing": "Testing",
+			"other": "Other"
+		}
+	},
+	"experience": {
+		"subtitle": "My journey",
+		"current": "Today",
+		"butCompetences": {
+			"title": "Validated competencies — BUT Computer Science",
+			"items": {
+				"realiser": {
+					"name": "Develop",
+					"description": "Design, develop and deploy applications meeting real needs. This competency covers mastery of languages, software architectures and development best practices, from prototype to production."
+				},
+				"optimiser": {
+					"name": "Optimize",
+					"description": "Analyze and improve performance, code quality and algorithm efficiency. This competency includes testing, refactoring, complexity management and the application of recognized patterns."
+				},
+				"collaborer": {
+					"name": "Collaborate",
+					"description": "Work in teams following agile methodologies, using versioning tools and communicating effectively. This competency reflects my ability to contribute in multi-member projects with shared deliverables."
+				}
+			}
+		},
+		"items": {
+			"iut": {
+				"position": "BUT3 Computer Science",
+				"company": "IUT of Calais",
+				"period": "2023 - 2025",
+				"description": "Computer science training with specialization in web development and project management. In-depth learning of modern technologies and agile methodologies."
+			},
+			"stage": {
+				"position": "Web Developer Internship",
+				"company": "Company Internship",
+				"period": "2025 (2 months)",
+				"description": "Web development internship with Nuxt, Vue.js, TypeScript, Cypress, TailwindCSS and tRPC. Practical application of skills acquired during training on a real project."
+			},
+			"high-school": {
+				"position": "BAC STMG",
+				"company": "Pierre de Coubertin High School",
+				"period": "2021 - 2023",
+				"description": "Technological Baccalaureate in Management and Business Sciences."
+			}
+		}
+	},
+	"contact": {
+		"subtitle": "Let's stay in touch",
+		"info": {
+			"title": "Contact information",
+			"email": "Email",
+			"location": "Location",
+			"locationValue": "France",
+			"linkedin": "LinkedIn",
+			"github": "GitHub",
+			"profile": "My profile"
+		},
+		"form": {
+			"title": "Send me a message",
+			"name": "Name",
+			"namePlaceholder": "Your name",
+			"email": "Email",
+			"emailPlaceholder": "your{'@'}email.com",
+			"subject": "Subject",
+			"subjectPlaceholder": "Subject of your message",
+			"message": "Message",
+			"messagePlaceholder": "Your message...",
+			"submit": "Send message"
+		}
+	},
+	"projects": {
+		"title": "Projects",
+		"subtitle": "My work",
+		"backToProjects": "Back to projects",
+		"loading": "Loading projects",
+		"loadingProject": "Loading project...",
+		"error": "Loading error",
+		"notFound": "Project not found",
+		"empty": "No projects available",
+		"retry": "Retry",
+		"viewDemo": "View demo",
+		"sourceCode": "Source code",
+		"featured": "Featured",
+		"about": "About the project",
+		"detailsComing": "Project details coming soon...",
+		"technologies": "Technologies used",
+		"gallery": "Image Gallery",
+		"info": {
+			"title": "Information",
+			"created": "Created:",
+			"updated": "Updated:",
+			"status": "Status:",
+			"standard": "Standard"
+		},
+		"admin": {
+			"login": "Admin Login",
+			"newProject": "New Project",
+			"logout": "Logout",
+			"edit": "Edit",
+			"delete": "Delete",
+			"confirmDelete": "Are you sure you want to delete this project?"
+		}
+	}
 }

@@ -2,10 +2,18 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/i18n',
 		'@nuxt/eslint',
+		'@nuxtjs/tailwindcss',
 		// Activate @prisma/nuxt only in development
 		...(process.env.NODE_ENV === 'production' ? [] : ['@prisma/nuxt']),
 	],
 	devtools: { enabled: process.env.NODE_ENV !== 'production' },
+
+	app: {
+		pageTransition: false,
+		layoutTransition: false,
+	},
+
+	css: ['~/assets/css/cyberpunk.css'],
 	compatibilityDate: '2025-07-15',
 
 	eslint: {

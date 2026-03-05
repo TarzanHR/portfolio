@@ -1,3 +1,201 @@
 {
-    "hello": "Bienvenue dans mon template"
+	"header": {
+		"name": "GUILMIN Leny"
+	},
+	"nav": {
+		"home": "Accueil",
+		"about": "À propos",
+		"projects": "Projets",
+		"skills": "Compétences",
+		"experience": "Expérience",
+		"contact": "Contact",
+		"menu": "Menu",
+		"switchLanguage": "Changer de langue"
+	},
+	"footer": {
+		"description": "Développeur passionné.",
+		"quickLinks": "Liens rapides",
+		"contact": "Contact",
+		"location": "France",
+		"rights": "Tous droits réservés",
+		"builtWith": "Créé avec"
+	},
+	"home": {
+		"hero": {
+			"greeting": "Bonjour, je suis",
+			"role": "Développeur Web",
+			"description": "Étudiant en BUT3 Informatique, passionné par le développement web et les nouvelles technologies",
+			"cta": {
+				"projects": "Voir mes projets",
+				"contact": "Me contacter",
+				"about": "En savoir plus"
+			}
+		},
+		"aboutPreview": {
+			"subtitle": "En bref",
+			"description": "Étudiant en développement web, je suis passionné par la création d'applications web modernes et innovantes. Mon parcours m'a permis d'acquérir des compétences solides en développement front-end et back-end.",
+			"cta": "En savoir plus"
+		},
+		"skillsPreview": {
+			"subtitle": "Technologies que je maîtrise",
+			"cta": "Voir toutes mes compétences",
+			"skills": {
+				"vuejs": {
+					"name": "Vue.js & Nuxt",
+					"description": "Framework JavaScript moderne pour des applications web performantes"
+				},
+				"typescript": {
+					"name": "TypeScript",
+					"description": "Développement typé pour un code plus robuste et maintenable"
+				},
+				"nodejs": {
+					"name": "Node.js",
+					"description": "Backend JavaScript pour des API rapides et scalables"
+				},
+				"database": {
+					"name": "Database",
+					"description": "PostgreSQL, MySQL, Prisma ORM"
+				}
+			}
+		},
+		"projectsPreview": {
+			"subtitle": "Mes dernières réalisations",
+			"description": "Découvrez mes projets et réalisations",
+			"cta": "Voir mes projets"
+		},
+		"videoPreview": {
+			"title": "180 secondes du BUT Informatique",
+			"subtitle": "Un aperçu de la formation qui m'a forgé",
+			"badge": "180 secondes du BUT",
+			"ariaLabel": "Voir la vidéo 180 secondes du BUT Informatique sur YouTube"
+		}
+	},
+	"about": {
+		"subtitle": "Qui suis-je ?",
+		"journey": {
+			"title": "Mon parcours",
+			"paragraph1": "Étudiant en BUT3 Informatique à l'IUT de Calais, je suis passionné par le développement web et les nouvelles technologies.",
+			"paragraph2": "Mon parcours m'a permis d'acquérir des compétences solides en développement front-end et back-end, avec une spécialisation en Vue.js, Nuxt, TypeScript et Node.js.",
+			"paragraph3": "Je suis constamment à la recherche de nouveaux défis et d'opportunités pour approfondir mes connaissances dans le domaine du développement web."
+		},
+		"passion": {
+			"title": "Ce qui me passionne",
+			"items": {
+				"games": "Gros joueur de jeux spécialisé dans l'automatisation de tâches répétitives",
+				"series": "J'adore lire des webtoons / manga, ainsi que regarder des series anime",
+				"music": "J'aime me plonger dans la musique",
+				"learning": "Apprentissage continu de nouvelles technologies"
+			}
+		}
+	},
+	"skills": {
+		"subtitle": "Technologies & Compétences",
+		"all": "Tout",
+		"categories": {
+			"frontend": "Frontend",
+			"backend": "Backend",
+			"database": "Base de données",
+			"devops": "DevOps & Outils",
+			"testing": "Tests",
+			"other": "Autres"
+		}
+	},
+	"experience": {
+		"subtitle": "Mon parcours",
+		"current": "Aujourd'hui",
+		"butCompetences": {
+			"title": "Compétences validées en BUT Informatique",
+			"items": {
+				"realiser": {
+					"name": "Réaliser",
+					"description": "Concevoir, développer et déployer des applications répondant à des besoins réels. Cette compétence couvre la maîtrise des langages, des architectures logicielles et des bonnes pratiques de développement, du prototype jusqu'à la mise en production."
+				},
+				"optimiser": {
+					"name": "Optimiser",
+					"description": "Analyser et améliorer les performances, la qualité du code et l'efficacité des algorithmes. Cette compétence englobe les tests, la refactorisation, la gestion de la complexité et l'application de patterns reconnus."
+				},
+				"collaborer": {
+					"name": "Collaborer",
+					"description": "Travailler en équipe en suivant des méthodologies agiles, en utilisant des outils de versioning et en communiquant efficacement. Cette compétence reflète ma capacité à contribuer dans des projets multi-membres avec des livrables partagés."
+				}
+			}
+		},
+		"items": {
+			"iut": {
+				"position": "BUT3 Informatique",
+				"company": "IUT de Calais",
+				"period": "2023 - 2025",
+				"description": "Formation en informatique avec spécialisation en développement web et gestion de projets. Apprentissage approfondi des technologies modernes et des méthodologies agiles."
+			},
+			"stage": {
+				"position": "Stage Développeur Web",
+				"company": "Stage en entreprise",
+				"period": "2025 (2 mois)",
+				"description": "Stage de développement web avec Nuxt, Vue.js, TypeScript, Cypress, TailwindCSS et tRPC. Mise en pratique des compétences acquises en formation sur un projet réel."
+			},
+			"high-school": {
+				"position": "BAC STMG",
+				"company": "Lycée Pierre de Coubertin",
+				"period": "2021 - 2023",
+				"description": "Baccalauréat Technologique Sciences et Technologies du Management et de la Gestion."
+			}
+		}
+	},
+	"contact": {
+		"subtitle": "Restons en contact",
+		"info": {
+			"title": "Informations de contact",
+			"email": "Email",
+			"location": "Localisation",
+			"locationValue": "France",
+			"linkedin": "LinkedIn",
+			"github": "GitHub",
+			"profile": "Mon profil"
+		},
+		"form": {
+			"title": "Envoyez-moi un message",
+			"name": "Nom",
+			"namePlaceholder": "Votre nom",
+			"email": "Email",
+			"emailPlaceholder": "votre{'@'}email.com",
+			"subject": "Sujet",
+			"subjectPlaceholder": "Sujet de votre message",
+			"message": "Message",
+			"messagePlaceholder": "Votre message...",
+			"submit": "Envoyer le message"
+		}
+	},
+	"projects": {
+		"title": "Projets",
+		"subtitle": "Mes réalisations",
+		"backToProjects": "Retour aux projets",
+		"loading": "Chargement des projets",
+		"loadingProject": "Chargement du projet...",
+		"error": "Erreur de chargement",
+		"notFound": "Projet non trouvé",
+		"empty": "Aucun projet disponible",
+		"retry": "Réessayer",
+		"viewDemo": "Voir la démo",
+		"sourceCode": "Code source",
+		"featured": "Featured",
+		"about": "À propos du projet",
+		"detailsComing": "Détails du projet à venir...",
+		"technologies": "Technologies utilisées",
+		"gallery": "Galerie d'images",
+		"info": {
+			"title": "Informations",
+			"created": "Créé le:",
+			"updated": "Mis à jour:",
+			"status": "Statut:",
+			"standard": "Standard"
+		},
+		"admin": {
+			"login": "Admin Login",
+			"newProject": "New Project",
+			"logout": "Logout",
+			"edit": "Edit",
+			"delete": "Delete",
+			"confirmDelete": "Êtes-vous sûr de vouloir supprimer ce projet ?"
+		}
+	}
 }

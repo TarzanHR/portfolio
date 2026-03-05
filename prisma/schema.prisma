@@ -15,3 +15,48 @@ model User {
   email String  @unique
   name  String?
 }
+
+model Project {
+  id           Int      @id @default(autoincrement())
+  slug         String   @unique
+  titleFr      String
+  titleEn      String
+  descriptionFr String   @db.Text
+  descriptionEn String   @db.Text
+  contentFr    String?  @db.Text
+  contentEn    String?  @db.Text
+  image        String?
+  images       String?  @db.Text
+  demoUrl      String?
+  githubUrl    String?
+  technologies String   @db.Text
+  featured     Boolean  @default(false)
+  order        Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([featured])
+}
+
+model Skill {
+  id       Int    @id @default(autoincrement())
+  name     String
+  category String
+  level    Int
+  icon     String?
+  order    Int    @default(0)
+
+  @@index([category])
+}
+
+model Experience {
+  id          Int       @id @default(autoincrement())
+  company     String
+  position    String
+  description String    @db.Text
+  startDate   DateTime
+  endDate     DateTime?
+  current     Boolean   @default(false)
+  location    String?
+  order       Int       @default(0)
+}
