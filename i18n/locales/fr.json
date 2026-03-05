@@ -10,7 +10,8 @@
 		"experience": "Expérience",
 		"contact": "Contact",
 		"menu": "Menu",
-		"switchLanguage": "Changer de langue"
+		"switchLanguage": "Changer de langue",
+		"downloadCV": "Télécharger le CV"
 	},
 	"footer": {
 		"description": "Développeur passionné.",
@@ -131,7 +132,7 @@
 				"position": "Stage Développeur Web",
 				"company": "Stage en entreprise",
 				"period": "2025 (2 mois)",
-				"description": "Stage de développement web avec Nuxt, Vue.js, TypeScript, Cypress, TailwindCSS et tRPC. Mise en pratique des compétences acquises en formation sur un projet réel."
+				"description": "Refonte complète du système informatique d'un restaurant, incluant le développement de quatre applications TypeScript via tRPC : site de commande client, interface de gestion des commandes, interface d'administration de la base de données et API."
 			},
 			"high-school": {
 				"position": "BAC STMG",

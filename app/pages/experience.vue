@@ -5,9 +5,21 @@
 				<h1 class="font-pixel text-2xl md:text-4xl lg:text-5xl text-primary-400 mb-4">
 					{{ $t('nav.experience') }}
 				</h1>
-				<p class="text-sm md:text-base lg:text-xl text-gray-400 font-mono">
+				<p class="text-sm md:text-base lg:text-xl text-gray-400 font-mono mb-8">
 					> {{ $t('experience.subtitle') }}
 				</p>
+				<a
+					href="/cv.pdf"
+					download
+					class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-mono text-sm font-semibold text-dark-bg bg-primary-400 hover:bg-primary-400/90 shadow-[0_0_20px_rgba(0,255,136,0.3)] hover:shadow-[0_0_30px_rgba(0,255,136,0.5)] transition-all duration-200"
+				>
+					<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+						<polyline points="7 10 12 15 17 10"/>
+						<line x1="12" y1="15" x2="12" y2="3"/>
+					</svg>
+					{{ $t('nav.downloadCV') }}
+				</a>
 			</div>
 
 		<div class="space-y-6 md:space-y-8">
@@ -61,7 +73,7 @@ const experiences = [
 	{
 		key: 'iut',
 		current: true,
-		technologies: ['Vue.js', 'Nuxt', 'TypeScript', 'Node.js', 'Java', 'C++', 'Python'],
+		technologies: [],
 	},
 	{
 		key: 'stage',
@@ -71,7 +83,7 @@ const experiences = [
 	{
 		key: 'high-school',
 		current: false,
-		technologies: ['Management', 'Gestion', 'Économie'],
+		technologies: [],
 	},
 ];
 </script>

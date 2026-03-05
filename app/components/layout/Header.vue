@@ -150,6 +150,20 @@
 				</ul>
 
 				<div class="flex items-center gap-2 md:gap-3">
+					<!-- CV button desktop -->
+					<a
+						href="/cv.pdf"
+						download
+						class="hidden lg:flex items-center gap-2 px-3 py-2 rounded-lg font-mono text-sm font-semibold text-primary-400 border border-primary-400/40 bg-primary-400/5 hover:bg-primary-400/15 hover:border-primary-400 transition-all duration-200"
+						:title="$t('nav.downloadCV')"
+					>
+						<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+							<polyline points="7 10 12 15 17 10"/>
+							<line x1="12" y1="15" x2="12" y2="3"/>
+						</svg>
+						CV
+					</a>
 					<button
 						class="hidden lg:flex items-center gap-2 px-3 py-2 rounded-lg bg-dark-hover border border-primary-400/20 hover:border-primary-400/50 transition-all text-gray-300"
 						:title="$t('nav.switchLanguage')"
@@ -225,6 +239,21 @@
 						>
 							{{ $t(link.label) }}
 						</NuxtLink>
+					</li>
+					<li>
+						<a
+							href="/cv.pdf"
+							download
+							class="flex items-center gap-3 px-4 py-3 rounded-lg text-primary-400 border border-primary-400/30 bg-primary-400/5 font-mono font-semibold transition-all"
+							@click="mobileMenuOpen = false"
+						>
+							<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+								<polyline points="7 10 12 15 17 10"/>
+								<line x1="12" y1="15" x2="12" y2="3"/>
+							</svg>
+							{{ $t('nav.downloadCV') }}
+						</a>
 					</li>
 					<li>
 						<button

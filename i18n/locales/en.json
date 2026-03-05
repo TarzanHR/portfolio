@@ -10,7 +10,8 @@
 		"experience": "Experience",
 		"contact": "Contact",
 		"menu": "Menu",
-		"switchLanguage": "Switch language"
+		"switchLanguage": "Switch language",
+		"downloadCV": "Download Resume"
 	},
 	"footer": {
 		"description": "Passionate developer.",
@@ -131,7 +132,7 @@
 				"position": "Web Developer Internship",
 				"company": "Company Internship",
 				"period": "2025 (2 months)",
-				"description": "Web development internship with Nuxt, Vue.js, TypeScript, Cypress, TailwindCSS and tRPC. Practical application of skills acquired during training on a real project."
+				"description": "Complete overhaul of a restaurant's IT system, including the development of four TypeScript applications via tRPC: customer ordering site, order management interface, database administration interface, and API."
 			},
 			"high-school": {
 				"position": "BAC STMG",
